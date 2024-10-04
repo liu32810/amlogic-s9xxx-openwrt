@@ -50,4 +50,4 @@ svn co https://github.com/ophub/luci-app-amlogic/tree/main/luci-app-amlogic pack
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
-
+echo 'src-git amlogic https://github.com/ophub/luci-app-amlogic' >>feeds.conf.default
